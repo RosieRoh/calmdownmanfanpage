@@ -1,13 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainPage from "./main/MainPage";
 import Layout from "../components/Layout";
+import AboutHim from "./soyoun/AboutHim";
 
 export const path = {
   root: "/",
   dongseon: "/dongseon",
   jeongoon: "/jeongoon",
   teahyeong: "/teahyeong",
-  soyeon: "/soyeon",
+  about: "/about",
   dahyeon: "/dahyeon",
   gangsan: "/gangsan",
   choonghyeon: "/choonghyeon",
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
       {
         path: path.root,
         element: <MainPage />,
+      },
+      {
+        path: path.about,
+        element: <AboutHim />,
       },
     ],
   },

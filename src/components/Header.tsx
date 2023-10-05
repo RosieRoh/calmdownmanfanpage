@@ -18,7 +18,7 @@ export default function Header() {
             <StyledLink to={path.dongseon}>동선</StyledLink>
             <StyledLink to={path.jeongoon}>정운</StyledLink>
             <StyledLink to={path.teahyeong}>태형</StyledLink>
-            <StyledLink to={path.soyeon}>소연</StyledLink>
+            <StyledLink to={path.about}>AboutHim</StyledLink>
             <StyledLink to={path.dahyeon}>다현</StyledLink>
             <StyledLink to={path.gangsan}>강산</StyledLink>
             <StyledLink to={path.choonghyeon}>충현</StyledLink>
